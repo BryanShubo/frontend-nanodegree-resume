@@ -44,7 +44,8 @@ var bio={
 
 #####Objects
 ```
-Though JavaScript has no classes, you can mimic many of the characteristics with its functions. You'll learn more about 
+Though JavaScript has no classes, you can mimic many of the characteristics with its functions. You'll 
+learn more about 
 functions in Lesson 3 so consider this a bit of a preview.
 
 function Car() {}
@@ -52,7 +53,8 @@ function Car() {}
 var Car = function() {}
 */
 var car1 = new Car();
-The new keyword allows us to create a new instance of an Object. Remember that functions are objects. In the code above, 
+The new keyword allows us to create a new instance of an Object. Remember that functions are objects. 
+In the code above, 
 you can think of the function Car as a JavaScript version of a Python class definition.
 ```
 
@@ -71,22 +73,31 @@ workExperience.CompanyA is same as workExperience["CompanyA"]
      
 What is JSON?
 ```
-JavaScript Object Notation. JSON is a popular and simple format for storing and transferring nested or hierarchal data. 
-It's so popular that most other programming languages have libraries capable of parsing and writing JSON (like Python's 
-JSON library). Internet GET and POST requests frequently pass data in JSON format. JSON allows for objects (or data of 
+JavaScript Object Notation. JSON is a popular and simple format for storing and transferring nested 
+or hierarchal data. 
+It's so popular that most other programming languages have libraries capable of parsing and writing 
+JSON (like Python's 
+JSON library). Internet GET and POST requests frequently pass data in JSON format. JSON allows for 
+objects (or data of 
 other types) to be easily encapsulated within other objects. See the MDN or JSON.org for more details.
 ```
-This is a fantastic deep dive from Jason Lengstorf about JSON and its ubiquitous use in the form of AJAX requests.
+This is a fantastic deep dive from Jason Lengstorf about JSON and its ubiquitous use in the form of 
+AJAX requests.
 
 Why should I lint my JSON?
 ```
-With a mix of nested curly braces, square brackets and commas, it's easy to make mistakes with JSON. And mistakes mean 
-bugs. Seriously, I mess up JSONs all the time. You might even be able to spot a bug in one of my JSONs in a video in 
+With a mix of nested curly braces, square brackets and commas, it's easy to make mistakes with JSON. 
+And mistakes mean 
+bugs. Seriously, I mess up JSONs all the time. You might even be able to spot a bug in one of my JSONs 
+in a video in 
 this course...
 
-If you're generating JSON by hand, you should copy and paste your code into a JSON linter like jsonlint.com to quickly 
-and easily find syntax errors. A linter is a piece of software that analyzes code for syntax errors. Some text editors, 
-like Sublime Text, will automatically lint (or highlight) most syntax errors. But a JSON linter won't miss any syntax 
+If you're generating JSON by hand, you should copy and paste your code into a JSON linter like 
+jsonlint.com to quickly 
+and easily find syntax errors. A linter is a piece of software that analyzes code for syntax errors. 
+Some text editors, 
+like Sublime Text, will automatically lint (or highlight) most syntax errors. But a JSON linter won't 
+miss any syntax 
 errors and you can rest assured that your JSONs will be properly formatted.
 ```
 
@@ -94,17 +105,22 @@ errors and you can rest assured that your JSONs will be properly formatted.
 ```
 Instructor Notes
 
-work contains an array of jobs. Each job object in jobs should contain an employer, title, location, dates worked 
+work contains an array of jobs. Each job object in jobs should contain an employer, title, location, 
+dates worked 
 and description.
 
-projects contains an array of projects. Each project object in projects should contain a title, dates worked, 
+projects contains an array of projects. Each project object in projects should contain a title, 
+dates worked, 
 description, and an images array with URL strings for project images.
 
-bio contains a name, role, welcomeMessage, contacts object and skills array. The contacts object should contain 
+bio contains a name, role, welcomeMessage, contacts object and skills array. The contacts object 
+should contain 
 (but doesn't have to) a mobile number, email address, github username, twitter handle and location.
 
-education contains an array of schools. Each school object in schools contains a name, location, degree, majors array, 
-dates attended and a url for the school's website. education also contains an onlineCourses array. Each onlineCourse 
+education contains an array of schools. Each school object in schools contains a name, location, 
+degree, majors array, 
+dates attended and a url for the school's website. education also contains an onlineCourses array. 
+Each onlineCourse 
 object in onlineCourses should contain a title, school, dates attended and a url for the course.
 
 ```
@@ -115,7 +131,8 @@ This course isn't about HTML and CSS but they keep showing up. Why is that? HTML
 are the three components that make almost every website. As part of the process of building websites, 
 browsers convert all of the HTML they receive into a JavaScript object called the Document Object Model (DOM).
 
-In fact, from the console, you can examine the DOM for any website (including this one!). By examining the DOM,
+In fact, from the console, you can examine the DOM for any website (including this one!). 
+By examining the DOM,
 you can learn pretty much everything about a website.
 
 Your Challenge
