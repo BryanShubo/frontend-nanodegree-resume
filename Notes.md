@@ -16,8 +16,8 @@ a; // will result in undefined
 
 b; // will result in a ReferenceError because b hasn't been declared yet.
 
-*NaN, or Not a Number, is a value that turns up when we ask Javascript to do certain impossible things in arithmetic -- 
-like divide zero by zero.
+*NaN, or Not a Number, is a value that turns up when we ask Javascript to do certain impossible things in 
+arithmetic like divide zero by zero.
 ```
 
 
@@ -107,4 +107,24 @@ education contains an array of schools. Each school object in schools contains a
 dates attended and a url for the school's website. education also contains an onlineCourses array. Each onlineCourse 
 object in onlineCourses should contain a title, school, dates attended and a url for the course.
 
+```
+
+#####What is the DOM?
+```
+This course isn't about HTML and CSS but they keep showing up. Why is that? HTML, CSS and JavaScript 
+are the three components that make almost every website. As part of the process of building websites, 
+browsers convert all of the HTML they receive into a JavaScript object called the Document Object Model (DOM).
+
+In fact, from the console, you can examine the DOM for any website (including this one!). By examining the DOM,
+you can learn pretty much everything about a website.
+
+Your Challenge
+
+For this challenge, I want you to find out the height of the classroom window (in pixels).
+
+To do so, you'll first need to open the console. Got it open? Select the classroom window. Try 
+typing document.getElementsByClassName("reading-area")[0] and press enter.
+
+See the HTML that comes up? That's the HTML that makes up the classroom. It's actually a JavaScript 
+object called an Element with properties you can access.
 ```
