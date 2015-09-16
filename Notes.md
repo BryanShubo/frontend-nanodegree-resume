@@ -247,3 +247,24 @@ In the example above, we passed /</g and />/g as old into string.replace(old, ne
 Alternatively, you could pass an HTML string into a function like encodeURIComponent(string) to remove instances of < and >. But it isn't intended for situations like this, possibly leading to unexpected consequences.
 
 Special thanks to Michael Händel for correcting my inaccurate solution!
+
+
+###FLOW CONTROL
+```
+Instructor Notes
+
+Strict equality (===) vs Loose equality (==)
+
+When you use three equal signs, ===, no type conversion is done prior to the comparison. If the values are different types, for example, a String and a Number, they can't ever be equal. To return true, the values must be equal and the types must be the same.
+
+Loose equality, ==, checks to see if the two values are the same type and if not, converts to a common type before the conversion. If the types are already the same, there is no difference between the result of === and ==. When they aren't it can cause unexpected results.
+
+Check the link to an article on Mozilla Developer Network to see what values get converted into what.
+
+According to Jacques Favreau, the lead front-end engineer at Udacity, you should never use ==. It's a frequent source of bugs. In fact, if a Udacity engineer tries to commit code with ==, it automatically gets rejected.
+
+Though it wasn't mentioned in the video, the same conditions apply for strict inequality (!==) and loose inequality (!=). Loose inequality is more forgiving than loose equality so you might not see strict inequality as often.
+```
+
+###Functions
+
